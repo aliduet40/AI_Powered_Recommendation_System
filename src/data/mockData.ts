@@ -1,0 +1,190 @@
+import { Movie, TVShow, Genre } from '../types/movie';
+
+export const genres: Genre[] = [
+  { id: 28, name: 'Action' },
+  { id: 12, name: 'Adventure' },
+  { id: 16, name: 'Animation' },
+  { id: 35, name: 'Comedy' },
+  { id: 80, name: 'Crime' },
+  { id: 99, name: 'Documentary' },
+  { id: 18, name: 'Drama' },
+  { id: 10751, name: 'Family' },
+  { id: 14, name: 'Fantasy' },
+  { id: 36, name: 'History' },
+  { id: 27, name: 'Horror' },
+  { id: 10402, name: 'Music' },
+  { id: 9648, name: 'Mystery' },
+  { id: 10749, name: 'Romance' },
+  { id: 878, name: 'Science Fiction' },
+  { id: 10770, name: 'TV Movie' },
+  { id: 53, name: 'Thriller' },
+  { id: 10752, name: 'War' },
+  { id: 37, name: 'Western' }
+];
+
+export const trendingMovies: Movie[] = [
+  {
+    id: 1,
+    title: "Guardians of the Galaxy Vol. 3",
+    overview: "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own.",
+    poster_path: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2023-05-05",
+    vote_average: 8.1,
+    vote_count: 4521,
+    genre_ids: [28, 12, 35, 878],
+    adult: false,
+    original_language: "en",
+    original_title: "Guardians of the Galaxy Vol. 3",
+    popularity: 2847.394,
+    video: false
+  },
+  {
+    id: 2,
+    title: "Spider-Man: Across the Spider-Verse",
+    overview: "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse.",
+    poster_path: "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2023-06-02",
+    vote_average: 8.6,
+    vote_count: 3892,
+    genre_ids: [16, 28, 12],
+    adult: false,
+    original_language: "en",
+    original_title: "Spider-Man: Across the Spider-Verse",
+    popularity: 3124.567,
+    video: false
+  },
+  {
+    id: 3,
+    title: "The Flash",
+    overview: "When Barry Allen uses his superpowers to travel back in time in order to change the events of the past, he finds himself in an alternate reality.",
+    poster_path: "https://images.pexels.com/photos/7991225/pexels-photo-7991225.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/7991225/pexels-photo-7991225.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2023-06-16",
+    vote_average: 6.8,
+    vote_count: 2156,
+    genre_ids: [28, 12, 878],
+    adult: false,
+    original_language: "en",
+    original_title: "The Flash",
+    popularity: 1987.234,
+    video: false
+  },
+  {
+    id: 4,
+    title: "Oppenheimer",
+    overview: "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+    poster_path: "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2023-07-21",
+    vote_average: 8.3,
+    vote_count: 5234,
+    genre_ids: [18, 36, 53],
+    adult: false,
+    original_language: "en",
+    original_title: "Oppenheimer",
+    popularity: 4521.789,
+    video: false
+  },
+  {
+    id: 5,
+    title: "Barbie",
+    overview: "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land.",
+    poster_path: "https://images.pexels.com/photos/8728562/pexels-photo-8728562.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/8728562/pexels-photo-8728562.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2023-07-21",
+    vote_average: 7.2,
+    vote_count: 3876,
+    genre_ids: [35, 12, 14],
+    adult: false,
+    original_language: "en",
+    original_title: "Barbie",
+    popularity: 3987.456,
+    video: false
+  },
+  {
+    id: 6,
+    title: "Indiana Jones and the Dial of Destiny",
+    overview: "Finding himself in a new era, approaching retirement, Indy wrestles with fitting into a world that seems to have outgrown him.",
+    poster_path: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2023-06-30",
+    vote_average: 6.9,
+    vote_count: 2987,
+    genre_ids: [28, 12],
+    adult: false,
+    original_language: "en",
+    original_title: "Indiana Jones and the Dial of Destiny",
+    popularity: 2456.123,
+    video: false
+  }
+];
+
+export const popularMovies: Movie[] = [
+  {
+    id: 7,
+    title: "Avatar: The Way of Water",
+    overview: "Set more than a decade after the events of the first film, learn the story of the Sully family.",
+    poster_path: "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2022-12-16",
+    vote_average: 7.6,
+    vote_count: 8234,
+    genre_ids: [878, 12, 28],
+    adult: false,
+    original_language: "en",
+    original_title: "Avatar: The Way of Water",
+    popularity: 5234.567,
+    video: false
+  },
+  {
+    id: 8,
+    title: "Top Gun: Maverick",
+    overview: "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs.",
+    poster_path: "https://images.pexels.com/photos/7991225/pexels-photo-7991225.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/7991225/pexels-photo-7991225.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    release_date: "2022-05-27",
+    vote_average: 8.3,
+    vote_count: 6789,
+    genre_ids: [28, 18],
+    adult: false,
+    original_language: "en",
+    original_title: "Top Gun: Maverick",
+    popularity: 4567.890,
+    video: false
+  }
+];
+
+export const trendingTVShows: TVShow[] = [
+  {
+    id: 101,
+    name: "Wednesday",
+    overview: "A coming-of-age supernatural mystery comedy horror series that follows Wednesday Addams as she navigates her years as a student.",
+    poster_path: "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    first_air_date: "2022-11-23",
+    vote_average: 8.5,
+    vote_count: 4521,
+    genre_ids: [35, 80, 9648],
+    origin_country: ["US"],
+    original_language: "en",
+    original_name: "Wednesday",
+    popularity: 3456.789
+  },
+  {
+    id: 102,
+    name: "House of the Dragon",
+    overview: "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke.",
+    poster_path: "https://images.pexels.com/photos/8728562/pexels-photo-8728562.jpeg?auto=compress&cs=tinysrgb&w=500",
+    backdrop_path: "https://images.pexels.com/photos/8728562/pexels-photo-8728562.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    first_air_date: "2022-08-21",
+    vote_average: 8.4,
+    vote_count: 5234,
+    genre_ids: [18, 10765, 10759],
+    origin_country: ["US"],
+    original_language: "en",
+    original_name: "House of the Dragon",
+    popularity: 4567.123
+  }
+];
